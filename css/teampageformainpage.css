@@ -1,0 +1,530 @@
+/* Reset default margin and padding */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ==================main page=================== */
+.top-page-custom {
+  margin-top: 30vh;
+}
+
+.centered-content-custom {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.centered-content-custom h1 {
+  font-family: 'Caveat', cursive;
+  font-style: Caveat;
+  font-size: 2.9rem;
+  font-weight: bolder;
+  color: #000
+}
+
+.centered-content-custom p {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .group-photo-custom {
+    display: none;
+  }
+}
+
+
+/* ======================================================================================= */
+
+
+/* Styling for navbar and highlighter */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  /* padding: 10px; */
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
+}
+
+.selected-item {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px 0;
+  transition: max-height 0.3s ease;
+}
+
+.nav-links.show {
+  display: flex;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-item:hover {
+  color: rgb(29, 255, 59);
+}
+
+.nav-item.active {
+  color: white;
+  border-radius: 10px;
+}
+
+.highlighter {
+  position: absolute;
+  height: 40px;
+  background-color: black;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  z-index: 0;
+}
+
+@media (max-width: 1200px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 2;
+  }
+
+  .nav-item {
+    text-align: center;
+    width: 100%;
+  }
+
+  .selected-item {
+    display: block;
+    /* Show the selected item only on mobile */
+  }
+
+  .highlighter {
+    display: none;
+    /* Hide the highlighter for mobile simplicity */
+  }
+}
+
+/* Team Section Styling */
+/* Team Section Styling */
+.team-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.team-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-card {
+  flex: 1 1 calc(25% - 20px);
+  /* Default: 4 cards per row */
+  max-width: calc(20% - 20px);
+  /* Default: 4 cards per row */
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.team-card .name {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.team-card .role {
+  font-size: 14px;
+  color: gray;
+}
+
+.team-card .linkedin-icon {
+  display: block;
+  margin-top: 10px;
+}
+
+.team-card .linkedin-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.member-img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-card:hover .member-img {
+  transform: scale(1.1);
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.linkedin-logo {
+  width: 40px;
+  /* Adjust size */
+  height: 40px;
+  fill: #0077B5;
+  /* Default LinkedIn blue */
+  transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+.linkedin-logo:hover {
+  fill: #005983;
+  /* A darker shade of blue */
+  transform: scale(1.2);
+  /* Slightly enlarges on hover */
+}
+
+
+/* Media query for smaller screens (mobile) */
+@media (max-width: 768px) {
+  .team-card {
+    height: 340px;
+    flex: 1 1 calc(50% - 20px);
+    /* 2 cards per row */
+    max-width: calc(55% - 20px);
+    /* 2 cards per row */
+    padding: auto;
+
+
+  }
+
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+}
+
+
+
+/* ===============================faculy names================ */
+
+.section {
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+  font-weight: 100;
+  font-family: Caveat;
+}
+
+.section-description {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  color: #555;
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
+
+/* Individual Card */
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 0px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0.5em;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+
+
+
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Placeholder */
+.image-placeholder {
+
+  width: 100%;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .image-placeholder {
+  transform: scale(1.1);
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Member Name */
+.name {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.linkedin-icon {
+  /* margin-right: 8px;
+  margin-left: 158px;
+  color: #0077b5; 
+  text-decoration: none;
+  font-size: 20px;
+  vertical-align: auto;
+  position: absolute;
+  left: 0; 
+  top: 82%; 
+  transform: translateY(-50%); 
+  */
+
+}
+
+.linkedin-icon:hover {
+  color: #005582;
+}
+
+
+
+.centered-img {
+  display: flex;
+  transform: scale(1.6);
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ===============================footer=========================== */
+.footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px 30px;
+  margin-top: 20vh;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.brand h1,
+.brand p {
+  color: rgb(255, 255, 255);
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.icon {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pages ul,
+.navigate ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pages li,
+.navigate li {
+  margin: 5px 0;
+}
+
+.subscribe input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.subscribe button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+
+.footer-bottom a {
+  color: black;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+/* Add underline and pointer on hover */
+.pages ul li,
+.navigate ul li {
+  margin: 5px 0;
+  cursor: pointer;
+  /* Show pointer cursor */
+  position: relative;
+  /* For the underline effect */
+}
+
+.pages ul li::after,
+.navigate ul li::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  /* Thickness of the underline */
+  background-color: black;
+  /* Color of the underline */
+  transition: width 0.3s ease-in-out;
+  /* Smooth transition */
+}
+
+.pages ul li:hover::after,
+.navigate ul li:hover::after {
+  width: 100%;
+  /* Show underline on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    text-align: center;
+  }
+
+  .subscribe input,
+  .subscribe button {
+    width: calc(100% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .social-icons {
+    justify-content: center;
+  }
+
+  .icon {
+    padding: 5px;
+    font-size: 12px;
+  }
+}
