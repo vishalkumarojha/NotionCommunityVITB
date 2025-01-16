@@ -1,13 +1,8 @@
 /* Navbar styles */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
-@import url(https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600&display=swap);
-
 body {
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Caveat', sans-serif;
 }
-
-
-
 .navbar-custom {
   display: flex;
   justify-content: space-between;
@@ -130,7 +125,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 20vh;
-  font-family: Afacad;
+  font-family: Caveat;
   gap: 20vh;
 }
 
@@ -153,7 +148,7 @@ body {
 }
 
 .about-us-data-text {
-  font-family: Afacad;
+  font-family: Caveat;
   font-size: 28px;
   font-weight: 500;
   line-height: 37.33px;
@@ -183,7 +178,7 @@ body {
   }
 
   .about-us-data-text {
-    font-family: Afacad;
+    font-family: Caveat;
     font-size: 28px;
     font-weight: 500;
     line-height: 37.33px;
@@ -201,4 +196,16 @@ body {
   margin-top: 20vh;
   text-align: center;
   font-size: 30px;
+}
+/** MOBILE VIEW **/
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
 }
