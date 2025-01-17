@@ -48,6 +48,14 @@ backButton.onclick = function () {
         backButton.innerText = "See All ↗";
     } else {
         // Navigate to the "See All" page
-       // window.location.href = "see-more-page.html"; 
+        window.location.href = "pages/gallery.html"; 
     }
 };
+let eventPhotoButtons = document.querySelectorAll('.eventPhotos');
+eventPhotoButtons.forEach((button) => {
+    button.onclick = function () {
+        let eventKey = button.getAttribute('data-event');
+        // Redirect to the specific gallery page
+        window.location.href = `pages/eventgallery/${eventKey}.html`; // Example: gallery/zenith24.html
+    };
+});

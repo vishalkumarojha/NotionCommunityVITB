@@ -1,3 +1,68 @@
 body, h1, h2, h3, p, span, a {
     font-family: 'Caveat', cursive !important;
 }
+/* Add responsive styles */
+@media (max-width: 768px) {
+    .navbar-custom ul {
+      display: none;
+    }
+    .menu-icon-custom {
+      display: block;
+    }
+    .nav-links-custom {
+      display: flex;
+      flex-direction: column;
+    }
+    .nav-links-custom li {
+      margin: 10px 0;
+    }
+    .notion-about-section, .carousel, .slider, .team-section-custom, .testimonials-page {
+      flex-direction: column;
+      align-items: center;
+    }
+    .notion-image-content img, .carousel .item img, .slider .item img, .team-section-custom .card img, .testimonials-page .card-testimonials img {
+      width: 100%;
+      height: auto;
+    }
+    .notion-text-content, .introduce, .detail, .section-description, .testimonials {
+      text-align: center;
+    }
+    .footer-columns {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-column {
+      margin-bottom: 20px;
+    }
+    .img-first-page {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .top-text-first-page, .bottom-text-first-page {
+      text-align: center;
+      padding: 0 10px;
+      margin: 10px 0;
+      font-size: 1.5em;
+    }
+  }
+.eventPhotos {
+    font-family: 'Source Serif Pro', serif; /* Set font */
+    background-color: #9fbbf8; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding to make the button bigger */
+    border: 2px solid #9fbbf8; /* Border color */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    text-align: center; /* Center align text */
+    font-size: 16px; /* Font size */
+    display: inline-block; /* Make it behave like a block element */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .eventPhotos:hover {
+    background-color: white; /* Hover background color */
+    color: #9fbbf8; /* Text color on hover */
+  }
+  
