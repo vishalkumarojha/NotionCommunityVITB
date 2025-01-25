@@ -1,7 +1,9 @@
-body, h1, h2, h3, p, span, a {
+body, h1, h2, h3, span, a {
     font-family: 'Caveat', cursive !important;
 }
-
+p {
+  font-family: 'Source Serif Pro', serif;
+}
 .eventPhotos {
     font-family: 'Source Serif Pro', serif; /* Set font */
     background-color: #9fbbf8; /* Button background color */

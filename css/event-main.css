@@ -7,6 +7,9 @@ body {
     background-color: #F4F4F4;
     font-family: Caveat;
 }
+p {
+    font-family: 'Source Serif Pro', serif;
+  }
 
 :root {
     --item1-transform: translateX(-100%) translateY(-5%) scale(1.5);
