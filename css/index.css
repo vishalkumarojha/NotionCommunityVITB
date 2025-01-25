@@ -1,13 +1,13 @@
 /* Reset default margin and padding */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
+body{
   font-family: Caveat, sans-serif;
   display: flex;
   justify-content: center;
@@ -15,9 +15,9 @@ body {
   /* height: 100vh; */
   margin: 0;
 }
-
-
-
+p {
+  font-family: 'Source Serif Pro', serif;
+}
 
 
 .heading-for-sponcers {
@@ -27,6 +27,7 @@ body {
 /* =================================Navbar======================== */
 
 /* Navbar styles */
+.nav {font-family: Caveat, sans-serif;}
 .navbar-custom {
   display: flex;
   justify-content: space-between;
