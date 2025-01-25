@@ -27,7 +27,9 @@ p {
 /* =================================Navbar======================== */
 
 /* Navbar styles */
-.nav {font-family: Caveat, sans-serif;}
+.nav-links-custom{
+  font-family: Caveat, sans-serif;
+}
 .navbar-custom {
   display: flex;
   justify-content: space-between;
