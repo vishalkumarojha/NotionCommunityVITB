@@ -13,37 +13,12 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 
 }
-.testimonial {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  max-width: 350px; /* Adjust width if needed */
-}
-
-.testimonial-profile {
-  display: flex;
-  align-items: center;
-  gap: 8px; /* Reduce space between image and name */
-  margin-bottom: 5px; /* Reduce space below the profile section */
-}
-
-.testimonial-content {
-  margin-top: 0; /* Remove unnecessary top margin */
-  padding-top: 0;
-}
-.testimonial-container {
-  display: flex;
-  justify-content: center;
-  gap: 40px; /* Reduce spacing between each testimonial */
-}
 
 .heading-for-testimonials {
-
   text-align: center;
-  margin-top: 9vh;
+  margin-top: 4vh; 
+  margin-bottom: 2vh; 
 }
-
 .heading-for-testimonials h1 {
   font-family: 'Caveat', cursive;
   font-size: 65px;
@@ -51,7 +26,7 @@ a:not([class]) {
 }
 
 .testimonials-page {
-  margin-top: 30vh;
+  margin-top: 5vh;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
@@ -101,6 +76,7 @@ body {
   font-family: 'Source Serif Pro', serif;
   background: linear-gradient(180deg, #ffffff 0%, #fefefe 100%);
 }
+
 
 :root {
   --purple: hsla(263, 55%, 52%, 1);
@@ -205,7 +181,7 @@ h1 {
   flex-direction: row;
   align-items: center;
   gap: 16px;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 
 .profile-info {
