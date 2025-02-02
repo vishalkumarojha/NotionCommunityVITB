@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notion FAQs - Recruitment</title>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="question-to-reach.css">
+  <link rel="shortcut icon" href="../assets/logo.png">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar-custom">
+      <div class="logo-custom"><img href="../index.html" class="logo-custom" src="../assets/logo (2).png" alt=""></div>
+      <div class="menu-icon-custom" id="menu-icon">
+        &#9776;
+      </div>
+      <ul class="nav-links-custom" id="nav-links-first">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../Pages/about-s.html">About</a></li>
+        <li><a href="../Pages/team-section.html">Team</a></li>
+        <li><a href="../Pages/gallery.html">Photo Gallery</a></li>
+        <li><a href="../Pages/questions-toreach-out.html">Help</a></li>
+      </ul>
+    </nav>
+    <hr style="border: 0; height: 2px; background-color: #333;  ">
+    <h1 class="main-title">NOTION FAQs</h1>
+    <h2 class="sub-title">Responses To Your Questions</h2>
+  </header>
+  <section class="content">
+    <aside class="sidebar">
+      <h3>Sort By Subject</h3>
+      <ul>
+        <li><a href="../Pages/questions-toreach-out.html">General</a></li>
+        <li><a href="../Pages/about-notion.html">About Notion</a></li>
+        <li><a href="../Pages/recruitment.html">Recruitment</a></li>
+      </ul>
+    </aside>
+    <main class="faq-section">
+      <h2 id="recruitment">Recruitment</h2>
+      <div class="faq">
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleDropdown(this)">
+            How can students apply to join the Notion community club? <span class="plus">+</span>
+          </div>
+          <div class="faq-answer">
+            Students can apply during recruitment drives by filling out an online form. Notifications are shared on social media and through campus promotions.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleDropdown(this)">
+            What are the criteria for selecting new members for the club? <span class="plus">+</span>
+            
+          </div>
+          <div class="faq-answer">
+            Selection is based on skills, enthusiasm, and alignment with the club's goals. The process may include interviews and practical evaluations.
+
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleDropdown(this)">
+            What are the different roles or responsibilities available for new recruits? <span class="plus">+</span>
+          </div>
+          <div class="faq-answer">
+            New recruits can join teams like Content, Creative, Media, Operations, Corporate, Outreach, Anchoring, or Tech, based on their skills and interest.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleDropdown(this)">
+            How does the recruitment process help identify leadership potential? <span class="plus">+</span>
+          </div>
+          <div class="faq-answer">
+            The process assesses problem-solving abilities, creativity, and communication skills, helping identify candidates with leadership qualities.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleDropdown(this)">
+            Are there any prerequisites or specific skills required to join the club? <span class="plus">+</span>
+          </div>
+          <div class="faq-answer">
+            While no specific prerequisites are required, basic skills related to the desired team (e.g., writing for Content or design for Creative) are beneficial.
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
+
+
+  <div class="questions-to-reach-out">
+
+    <section class="left-questions-to-reach-out">
+      <div class="text-questions-to-reach-out">
+        <h1>Questions</h1>
+        <h2>Reach out</h>
+      </div>
+
+      <img src="../assets/img.png" alt="">
+    </section>
+    <section class="right-questions-to-reach-out">
+      <form class="form-container">
+        <div class="first-two-questions">
+          <div class="form-row">
+            <label for="first-name">
+              <h1>First Name</h1>
+            </label>
+            <input type="text" id="first-name" class="dashed-input" required>
+          </div>
+          <div class="form-row">
+            <label for="last-name">
+              <h1>Last Name</h1>
+            </label>
+            <input type="text" id="last-name" class="dashed-input" required>
+          </div>
+        </div>
+        <div class="other-two-questions">
+          <div class="form-row">
+            <label for="vit-mail">
+              <h1>Vit Email ID</h1>
+            </label>
+            <input type="email" id="vit-mail" class="dashed-input" required>
+          </div>
+          <div class="form-row">
+            <label for="query">
+              <h1>Querry</h1>
+            </label>
+            <input type="text" id="query" class="dashed-input" required>
+          </div>
+        </div>
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </section>
+    
+    <script src="questions-to-reacout.js"></script>
+</body>
+
+</html>
