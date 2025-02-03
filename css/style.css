@@ -103,11 +103,8 @@ body {
 }
 
 /* typography */
-.heading,
-span,
-a,
-h1 {
-  font: 600 20px/24px 'Source Serif Pro', serif;
+.heading, span,a,h1 {
+  font: 600 19px 'Caveat', serif;
 }
 
 
