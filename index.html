@@ -1,142 +1,677 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="question-to-reach.css">
-  <nav class="navbar-custom">
-    <title>Notion Community VITB</title>
-    <div class="logo-custom"><img href="../index.html" class="logo-custom" src="../assets/logo (2).png" alt=""></div>
-    <div class="menu-icon-custom" id="menu-icon">
-      &#9776;
-    </div>
-    <ul class="nav-links-custom" id="nav-links-first">
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="about-s.html">About</a></li>
-      <li><a href="../Pages/team-section.html">Team</a></li>
-      <li><a href="../Pages/gallery.html">Photo Gallery</a></li>
-      <li><a href="questions-toreach-out.html">Help</a></li>
-    </ul>
-  </nav>
-  <hr style="border: 0; height: 2px; background-color: #333;  ">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="question-to-reach.css">
-  <title>Simple Form</title>
-  <link rel="shortcut icon" href="../assets/logo.png">
+  <title>Notion Community VITB</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css\index.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="css\sponcers.css">
+  <link rel="stylesheet" href="css\event-main.css">
+  <link rel="stylesheet" href="css/about-s.css">
+  <!-- <link rel="stylesheet" href="teampageformainpage.css"> -->
+  <link rel="stylesheet" href="css\team-section.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="shortcut icon" href="assets\logo.png">
 </head>
 
 <body>
-  <div class="header">
-    <h1 class="main-title">NOTION FAQs</h1>
-    <h2 class="sub-title">Responses To Your Questions</h2>
+  <div id="preloader">
+    <img src="./svg/notion-new-preloader.gif" alt="Loading..." class="custom-loader">
   </div>
-  <section class="content">
-    <aside class="sidebar">
-      <h3>Sort By Subject</h3>
-      <ul>
-        <li><a href="questions-toreach-out.html">General</a></li>
-        <li><a href="about-notion.html">About Notion</a></li>
-        <li><a href="recruitment.html">Recruitment</a></li>
-      </ul>
-    </aside>
-    <main class="faq-section">
-      <h2 id="general">General</h2>
-      <div class="faq">
-        <div class="faq-item">
-          <div class="faq-question" onclick="toggleDropdown(this)">
-            How can students participate in or attend events organized by the Notion Community Club? <span class="plus">+</span>
+  <div class="content">
+    <header>
+      <nav class="navbar-custom">
+        <div class="logo-custom"><img href="./index.html" class="logo-custom" src="./assets/logo (2).png" alt=""></div>
+        <div class="menu-icon-custom" id="menu-icon">
+          &#9776;
+        </div>
+        <ul class="nav-links-custom" id="nav-links-first">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./Pages/about-s.html">About</a></li>
+          <li><a href="./Pages/team-section.html">Team</a></li>
+          <li><a href="./Pages/gallery.html">Photo Gallery</a></li>
+          <li><a href="
+            ./Pages/questions-toreach-out.html">Help</a></li>
+        </ul>
+      </nav>
+      <hr style="border: 0; height: 2px; background-color: #333;">
+    </header>
+
+
+    <!-- ===========================first page starts=================== -->
+
+
+
+    <section class="first-page">
+
+
+      <h1 class="top-text-first-page">Notion Community, VIT Bhopal</h1>
+
+
+
+      <div class="img-first-page"><img class="img-first-page" src="assets\treail03.png" alt=""></div>
+
+      <h1 class="bottom-text-first-page">Welcome to your all-in-one workspace for organizing, planning, and creating!
+      </h1>
+    </section>
+
+
+
+
+
+    <!-- ===========================first page ends  =================== -->
+
+
+    <!-- =================================About US Start =========================== -->
+    <div class="notion-about-section">
+      <div class="notion-text-content">
+        <h1>Notion Community VIT Bhopal</h1>
+        <p>
+          The Notion Community at VIT Bhopal is a vibrant group of enthusiasts who use and explore Notion for
+          productivity, creativity, and collaboration. Join us to learn, share, and grow together!
+        </p>
+        <a href="about-s.html"><button class="notion-view-more-btn">View more</button></a>
+        <a href="#"><button class="notion-view-more-btn" id="join-us-button">Join us</button></a>
+      </div>
+      <div class="notion-image-content">
+        <img src="assets/img4.png" alt="Notion Community">
+      </div>
+    </div>
+
+
+
+
+    <!-- =================================About US Ends =========================== -->
+
+    <!-- =====================event section starts =================== -->
+
+    <div class="heading-for-event" style="z-index: 10;">
+      <h1>Our Events</h1>
+    </div>
+    <br>
+    <br>
+
+
+    <div class="carousel">
+      <div class="list">
+        <div class="item">
+          <a href=""><img src="images/1.jpg"></a>
+          <div class="introduce">
+            <div class="title">12/08/24</div>
+            <div class="topic">ZENITH'24</div>
+            <div class="des">
+              This event, attended by over 200 students, included a hackathon, followed by a talk from Shivansh Garg on
+              marketing, startups, and finance.
+            </div>
+            <button class="seeMore">SEE MORE &#8599</button>
           </div>
-          <div class="faq-answer">
-            Students can register for events through social media announcements, WhatsApp campaigns, and links shared by the outreach team.
-            
+          <div class="detail">
+            <div class="title">Zenith</div>
+            <div class="des">
+              The event concluded with a hands-on Notion workshop, ensuring students left with valuable knowledge and
+              tools to boost their productivity.
+            </div>
+            <button class="eventPhotos" data-event="zenith24">Event Photographs &#128247;</button>
+          </div>
+        </div>
+        <!-- Event 2 -->
+        <div class="item">
+          <a href=""><img src="images/2.jpg"></a>
+          <div class="introduce">
+            <div class="title">01/10/24</div>
+            <div class="topic">BUILD YOUR BRAND</div>
+            <div class="des">
+              "Build Your Brand" with Abhishek Kumar and Rishav Mishra drew 300+ Luma registrations, offering tips on
+              LinkedIn optimization, networking, and branding. </div>
+            <button class="seeMore">SEE MORE &#8599</button>
+          </div>
+          <div class="detail">
+            <div class="title">BUILD YOUR BRAND</div>
+            <div class="des">
+              Attended by over 180 students, the 'Build Your Brand Program' on November 26th introduced new students to
+              personal branding.
+              The speakers, Abhishek Kumar (founder of Notion Club) and Rishav Mishra (President of Notion Club)
+              emphasized social media and AI tool usage for personal branding.
+              A quiz on startups and AI further reinforced the concepts. The event empowered students with practical
+              tips to build a strong professional image. </div>
+              <button class="eventPhotos" data-event="zenith24">Event Photographs &#128247;</button>
+          </div>
+        </div>
+        <!-- Event 3 -->
+        <div class="item">
+          <a href=""><img src="images/3.png"></a>
+          <div class="introduce">
+            <div class="title">03/05/24</div>
+            <div class="topic">INNOVISION</div>
+            <div class="des">
+              On 3rd May, the Notion Community Club hosted Innovision, a highly anticipated technical event attended by
+              over 149 students.
+            </div>
+            <button class="seeMore">SEE MORE &#8599</button>
+          </div>
+          <div class="detail">
+            <div class="title">INNOVISION</div>
+            <div class="des">
+              The event featured keynote addresses by Dr. Gajendra Purohit and Soumen Banerjee, focusing on academic
+              growth, entrepreneurship, and startups.
+            </div>
+            <button class="eventPhotos" data-event="zenith24">Event Photographs &#128247;</button>
+          </div>
+        </div>
+        <!-- Event 5 -->
+        <div class="item">
+          <a href=""><img src="images/5.jpg"></a>
+          <div class="introduce">
+            <div class="title">23/02/24</div>
+            <div class="topic">Evolve</div>
+            <div class="des">
+              Held as part of ADVITYA 2024, this technical event attracted over 207 participants and featured guest
+              speakers sharing career insights.
+            </div>
+            <button class="seeMore">SEE MORE &#8599</button>
+          </div>
+          <div class="detail">
+            <div class="title">EVOLVE</div>
+            <div class="des">
+              The event concluded with a quiz and cash prizes for the winners, making it an engaging experience.
+            </div>
+            <button class="eventPhotos" data-event="zenith24">Event Photographs &#128247;</button>
+          </div>
+        </div>
+        <!-- Event 6 -->
+        <div class="item">
+          <a href=""><img src="images/6.jpg"></a>
+          <div class="introduce">
+            <div class="title">02/02/24</div>
+            <div class="topic">Notion Nexus</div>
+            <div class="des">
+              An educational event with Mr. Prince Sharma on boosting productivity using Notion, followed by poetry and
+              comedy entertainment.
+            </div>
+            <button class="seeMore">SEE MORE &#8599</button>
+          </div>
+          <div class="detail">
+            <div class="title">Notion Nexus</div>
+            <div class="des">
+              This session provided students with valuable insights into Notion's features, combined with entertainment
+              for a memorable experience.
+            </div>
+            <button class="eventPhotos" data-event="zenith24">Event Photographs &#128247;</button>
+          </div>
+        </div>
+        <!-- Event 6 -->
+        <div class="item">
+          <a href=""><img src="images/7.jpg"></a>
+          <div class="introduce">
+            <div class="title">13/12/23</div>
+            <div class="topic">Hustle 23</div>
+            <div class="des">
+              A quiz competition on AI, technology, and startups, followed by a live concert and cash prizes for winners
+              in December 2023.
+            </div>
+            <button class="seeMore">SEE MORE &#8599</button>
+          </div>
+          <div class="detail">
+            <div class="title">Hustle 23</div>
+            <div class="des">
+              Conducted via Mentimeter, the event was a fun blend of quizzes and entertainment, attracting a lively
+              audience.
+            </div>
+            <button class="eventPhotos" data-event="zenith24">Event Photographs &#128247;</button>
+          </div>
+        </div>
+        <!-- Event 7 -->
+        <div class="item">
+          <a href=""><img src="images/8.jpg"></a>
+          <div class="introduce">
+            <div class="title">24/11/23</div>
+            <div class="topic">Brain Bytes</div>
+            <div class="des">
+              A trivia challenge combining AI, technology, and entrepreneurship, attended by over 300 participants with
+              quizzes and live challenges.
+            </div>
+            <button class="seeMore">SEE MORE &#8599</button>
+          </div>
+          <div class="detail">
+            <div class="title">Brain Bytes</div>
+            <div class="des">
+              Participants explored AI tools, including ChatGPT prompts, and winners received cash prizes and Notion
+              goodies.
+            </div>
+            <button class="eventPhotos" data-event="zenith24">Event Photographs &#128247;</button>
           </div>
         </div>
       </div>
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleDropdown(this)">
-            What kind of events does the club typically host, and who can attend them?<span class="plus">+</span>
-        </div>
-        <div class="faq-answer">
-            The club hosts technical workshops,  quizzes, hackathons, and productivity sessions. These events are open to all VIT Bhopal students.
-        </div>
+      <div class="arrows">
+        <button id="prev">&larr;</button>
+        <button id="next">&rarr;</button>
+        <button id="back">See All &#8599</button>
       </div>
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleDropdown(this)">
-            How does the club ensure smooth coordination and execution of its events? <span class="plus">+</span>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- =====================event section ends =================== -->
+
+
+
+
+
+    <!-- =================SPONCERS STARST================ -->
+
+    <div class="heading-for-event heading-for-sponcers  ">
+      <h1>Our Speakers</h1>
+    </div>
+
+    <main>
+      <div class="slider" style="
+      --width: 300px;
+      --height: 282px;
+      --quantity: 6;
+  ">
+        <div class="list speakers  ">
+          <div class="item" style="--position: 1">
+            <img src="assets/11.jpg" alt="Image 1">
+          </div>
+          <div class="item speakers" style="--position: 2">
+            <img src="assets/12.jpg" alt="Image 2">
+          </div>
+          <div class="item speakers" style="--position: 3">
+            <img src="assets/13.jpg" alt="Image 3">
+          </div>
+          <div class="item speakers" style="--position: 4">
+            <img src="assets/14.jpg" alt="Image 4">
+          </div>
+          <div class="item speakers" style="--position: 5">
+            <img src="assets/15.jpg" alt="Image 5">
+          </div>
+          <div class="item speakers" style="--position: 6">
+            <img src="assets/16.jpg" alt="Image 6">
+          </div>
         </div>
-        <div class="faq-answer">
-            The club uses a structured system with specialized teams managing logistics, content creation, media, and technical support for seamless execution.
-        </div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleDropdown(this)">
-            What are the challenges faced during event organization, and how are they managed? <span class="plus">+</span>
-        </div>
-        <div class="faq-answer">
-            Common challenges include conflicts, delays, and sponsorship procurement. These are addressed through communication, backup plans, and proactive collaboration with sponsors and administration.
-        </div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleDropdown(this)">
-            How does the club collaborate with sponsors and external organizations? <span class="plus">+</span>
-        </div>
-        <div class="faq-answer">
-            The Corporate Team pitches to potential sponsors, highlighting mutual benefits. Successful collaborations have included Coding Ninjas, xyz, and Unstop.
-        </div>
-      </div>
-      </div>
       </div>
     </main>
-  </section>
 
-  <div class="questions-to-reach-out">
 
-    <section class="left-questions-to-reach-out">
-      <div class="text-questions-to-reach-out">
-        <h1>Questions</h1>
-        <h2>Reach out</h>
+
+    <div class="heading-for-event heading-for-sponcers  ">
+      <h1>Our Partners</h1>
+    </div>
+
+    <main>
+      <div class="slider" style="
+      --width: 300px;
+      --height: 150px;
+      --quantity: 6;
+  ">
+        <div class="list">
+          <div class="item" style="--position: 1">
+            <img src="https://www.financialexpress.com/wp-content/uploads/2023/05/APIS-and-NxtWave-image-37-3.jpg"
+              alt="Image 1">
+          </div>
+          <div class="item" style="--position: 2">
+            <img src="https://cdn.prod.website-files.com/6651150a3e5f7d2718fd1e42/66755667971778e82d4d9447_TPF.png"
+              alt="Image 2">
+          </div>
+          <div class="item" style="--position: 3">
+            <img src="https://c8.alamy.com/comp/KW46BK/logo-for-xyz-tld-KW46BK.jpg" alt="Image 3">
+          </div>
+          <div class="item" style="--position: 4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4OasCt8V1ILpWp8Q4Cgr7w486JJyvBVBTuA&s"
+              alt="Image 4">
+          </div>
+          <div class="item" style="--position: 5">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR90YS-tO1xZKhWg0eI7yhCsN8h9j54XmmMsjIXA6ry4XkiFTFldPELh-CYFxcOA36ctDs&usqp=CAU"
+              alt="Image 5">
+          </div>
+          <div class="item" style="--position: 6">
+            <img src="https://logovectordl.com/wp-content/uploads/2019/11/notion-labs-inc-logo-vector.png"
+              alt="Image 6">
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- =================SPONCERS ends================ -->
+    <!-- =================Team page starts================ -->
+
+
+
+    <section class="top-page-custom">
+
+      <div class="centered-content-custom">
+        <h1>Meet the Notion Community Team</h1>
+        <br>
+        <p>From our guiding faculty to dynamic student teams, every member<br>
+          plays a crucial role in shaping our vibrant community.</p>
       </div>
 
-      <img src="../assets/img.png" alt="">
-    </section>
-    <section class="right-questions-to-reach-out">
-      <form class="form-container">
-        <div class="first-two-questions">
-          <div class="form-row">
-            <label for="first-name">
-              <h1>First Name</h1>
-            </label>
-            <input type="text" id="first-name" class="dashed-input" required>
-          </div>
-          <div class="form-row">
-            <label for="last-name">
-              <h1>Last Name</h1>
-            </label>
-            <input type="text" id="last-name" class="dashed-input" required>
-          </div>
-        </div>
-        <div class="other-two-questions">
-          <div class="form-row">
-            <label for="vit-mail">
-              <h1>Vit Email ID</h1>
-            </label>
-            <input type="email" id="vit-mail" class="dashed-input" required>
-          </div>
-          <div class="form-row">
-            <label for="query">
-              <h1>Querry</h1>
-            </label>
-            <input type="text" id="query" class="dashed-input" required>
-          </div>
-        </div>
-        <button type="submit" class="submit-button">Submit</button>
-      </form>
+      <div class="group-photo-custom">
+        <!-- <img class="group-photo-custom" src="assets/group photo.png" alt=""> -->
+      </div>
 
-
-
+      <div class="centered-content-custom">
+        <h1>Teams</h1>
+        <br>
+      </div>
 
     </section>
+    <!-- ===================================================================== -->
+
+
+    <!-- <div class="centered-img"><img class="centered-img"  src="assets/TechElements-removebg-preview (1).png" alt=""></div> -->
+
+
+
+
+    <!-- ====================FACULTY names================= -->
+
+    <div class="section">
+      <h1 class="section-title">Faculty Coordinators</h1>
+      <p class="section-description">The guiding light of the Notion Community.</p>
+      <div class="card-container">
+        <div class="card">
+          <div class="image-placeholder"></div>
+          <p class="name"> Dr. Nikhil Pateria</p>
+          <img src="assets/linkedin.svg" alt="LinkedIn" class="linkedin-logo-top">
+          <!-- <i class="fab fa-linkedin"></i> -->
+          </a>
+        </div>
+        <div class="card">
+          <div class="image-placeholder"></div>
+          <p class="name"> Dr. Nikhil Pateria</p>
+          <img src="assets/linkedin.svg" alt="LinkedIn" class="linkedin-logo-top">
+          <!-- <i class="fab fa-linkedin"></i> -->
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h1 class="section-title">Board Members</h1>
+
+      <p class="section-description">The leaders steering the community forward.</p>
+      <div class="card-container">
+        <div class="card">
+          <div class="image-placeholder"></div>
+          <p class="name"> Abhishek kumar</p>
+          <img src="assets/linkedin.svg" alt="LinkedIn" class="linkedin-logo-top">
+          <!-- <i class="fab fa-linkedin"></i> -->
+          </a>
+        </div>
+        <div class="card">
+          <div class="image-placeholder"></div>
+          <p class="name">Dr. Nikhil Pateria </p>
+          <img src="assets/linkedin.svg" alt="LinkedIn" class="linkedin-logo-top">
+          <!-- <i class="fab fa-linkedin"></i> -->
+          </a>
+        </div>
+        <div class="card">
+          <div class="image-placeholder"></div>
+          <p class="name"> Dr. Nikhil Pateria</p>
+
+          <img src="assets/linkedin.svg" alt="LinkedIn" class="linkedin-logo-top">
+          <!-- <i class="fab fa-linkedin"></i> -->
+          </a>
+
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <h1 class="section-title">Exucutive Manager</h1>
+
+      <p class="section-description">The leaders steering the community forward.</p>
+      <div class="card-container">
+        <div class="card">
+          <div class="image-placeholder"></div>
+          <p class="name"> Dr. Nikhil Pateria</p>
+          <img src="assets/linkedin.svg" alt="LinkedIn" class="linkedin-logo-top">
+          <!-- <i class="fab fa-linkedin"></i> -->
+          </a>
+        </div>
+        <div class="card">
+          <div class="image-placeholder"></div>
+          <p class="name">Dr. Nikhil Pateria </p>
+          <img src="assets/linkedin.svg" alt="LinkedIn" class="linkedin-logo-top">
+          <!-- <i class="fab fa-linkedin"></i> -->
+          </a>
+        </div>
+        <div class="card">
+          <div class="image-placeholder"></div>
+          <p class="name"> Dr. Nikhil Pateria</p>
+
+          <img src="assets/linkedin.svg" alt="LinkedIn" class="linkedin-logo-top">
+          <!-- <i class="fab fa-linkedin"></i> -->
+          </a>
+
+        </div>
+      </div>
+    </div>
+    <section class="team-section-custom">
+
+
+
+      <div class="navbar">
+        <div class="menu-container">
+          <div class="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <span class="selected-item"></span> <!-- Initially empty -->
+        </div>
+        <div class="nav-links">
+          <div class="highlighter"></div> <!-- Highlight moving rectangle -->
+          <a href="#" class="nav-item active" data-team="tech-team">Tech Team</a>
+          <a href="#" class="nav-item" data-team="operating-team">Operating Team</a>
+          <a href="#" class="nav-item" data-team="creative-team">Creative Team</a>
+          <a href="#" class="nav-item" data-team="outreach-team">Outreach Team</a>
+          <a href="#" class="nav-item" data-team="media-team">Media Team</a>
+          <a href="#" class="nav-item" data-team="content-team">Content Team</a>
+          <a href="#" class="nav-item" data-team="corporate-team">Corporate Team</a>
+          <a href="#" class="nav-item" data-team="Anchoring-team">Anchoring Team</a>
+        </div>
+      </div>
+
+      <!-- Team Sections -->
+      <div id="tech-team" class="team-section" style="display:none;">
+        <div id="tech-teamContainer" class="team-container"></div>
+      </div>
+
+      <div id="operating-team" class="team-section" style="display:none;">
+        <div id="operating-teamContainer" class="team-container"></div>
+      </div>
+
+      <div id="creative-team" class="team-section" style="display:none;">
+
+        <div id="creative-teamContainer" class="team-container"></div>
+      </div>
+
+      <div id="outreach-team" class="team-section" style="display:none;">
+
+        <div id="outreach-teamContainer" class="team-container"></div>
+      </div>
+
+      <div id="media-team" class="team-section" style="display:none;">
+
+        <div id="media-teamContainer" class="team-container"></div>
+      </div>
+
+      <div id="content-team" class="team-section" style="display:none;">
+
+        <div id="content-teamContainer" class="team-container"></div>
+      </div>
+
+      <div id="corporate-team" class="team-section" style="display:none;">
+
+        <div id="corporate-teamContainer" class="team-container"></div>
+      </div>
+      <div id="Anchoring-team" class="team-section" style="display:none;">
+
+        <div id="Anchoring-teamContainer" class="team-container"></div>
+      </div>
+
+
+
+
+
+    </section>
+    <!-- ============ team page ends================== -->
+
+
+
+
+    <div class="heading-for-testimonials">
+      <h1>Testimonials </h1>
+    </div>
+    <!-- ================================================testimoniials STARTS ================================= -->
+    <div class="testimonials-page">
+
+      <main class="container card-grid">
+        <!-- card purple -->
+        <section class="card-testimonials card-green">
+          <figure class="profile">
+            <div>
+              <img class="border-yellow"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnCsJ0CKxaG7wLqHP2Vxqg_cLN8EXs2as4_A&s"
+                alt="daniel profile photo">
+            </div>
+            <figcaption class="profile-info">
+              <h2 class="profile-name">Aron John Philipose</h2>
+              <span class="profile-title green-text">Attended Brain Bytes</span>
+            </figcaption>
+          </figure>
+
+          <div class="testimonials">
+            <h2 class="heading">Inspiring and Insightful Event.</h2>
+            <blockquote class="body green-text">“ The event was an incredible platform for networking. I had the chance
+              to
+              connect with a diverse group of entrepreneurs and professionals who share the same passion for growth and
+              innovation. The organizers made sure there were plenty of opportunities for meaningful interaction, from
+              breakout sessions to casual conversations during breaks. I found the discussions enriching, as I was able
+              to
+              exchange ideas, get feedback on my business, and even explore potential collaborations. This event
+              fostered
+              a supportive community, making it not just an educational experience but also a place to build lasting
+              professional relationships ”</blockquote>
+          </div>
+          <div class="quote"></div>
+        </section>
+
+        <section class="card-testimonials card-purple">
+          <figure class="profile">
+            <div>
+              <img class="border-cyan" src="https://live.staticflickr.com/6200/6122931893_461e084a9d_n.jpg"
+                alt="jonatan profile photo">
+            </div>
+            <figcaption class="profile-info">
+              <h2 class="profile-name">Shrishti Verma</h2>
+              <span class="profile-title">Attended Hustle</span>
+            </figcaption>
+          </figure>
+
+          <div class="testimonials">
+            <h1 class="heading">Valuable and Well-Organized</h1>
+            <p class="body">“ Seamless Experience from Start to Finish "From registration to the event conclusion,
+              everything was perfectly organized. The content was relevant, and the networking sessions were excellent.“
+            </p>
+          </div>
+        </section>
+
+        <section class="card-testimonials card-white-1">
+          <figure class="profile">
+            <div>
+              <img class="border-gray"
+                src="https://img.freepik.com/premium-photo/young-female-indian-collage-girl-going-college-smiling_437792-127.jpg"
+                alt="kira profile photo">
+            </div>
+            <figcaption class="profile-info">
+              <h2 class="profile-name">Tavishi Shrivastva</h2>
+              <span class="profile-title">Attended Evolve</span>
+            </figcaption>
+          </figure>
+
+          <div class="testimonials">
+            <h2 class="heading">A Must-Attend for Personal Growth</h2>
+            <blockquote class="body">“ Engaging Sessions with Real-World Applications
+              "This event struck the perfect balance between theoretical learning and practical, hands-on experience.
+              The
+              sessions were thoughtfully structured, with each speaker sharing real-world examples that resonated with
+              entrepreneurs at all levels. The workshops were interactive, allowing us to dive deep into Notion’s tools
+              and apply the concepts directly to our projects. I walked away not only with valuable insights but also
+              with
+              a clear plan on how to implement them in my day-to-day operations. The presenters were approachable, and
+              the
+              environment was highly collaborative, making it a standout learning experience ”</blockquote>
+          </div>
+        </section>
+
+        <section class="card-testimonials card-white-2">
+          <figure class="profile">
+            <div>
+              <img class="border-gray"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSyoi93fR5NOzQ1uUc-ZsBWcgwREbgkn17LyHKGLsZ6Xy0211u_5AG-PxUwQ&s"
+                alt="jeanette profile photo">
+            </div>
+            <figcaption class="profile-info">
+              <h2 class="profile-name">Saurav Mishra</h2>
+              <span class="profile-title">Attended Innovision</span>
+            </figcaption>
+          </figure>
+
+          <div class="testimonials">
+            <h2 class="heading">Great Balance of Learning and Interaction</h2>
+            <p class="body">“Thank you for the wonderful experience! I now have a job I really enjoy, and make a good
+              living while doing something I love.”</p>
+          </div>
+        </section>
+
+        <section class="card-testimonials card-black">
+          <figure class="profile">
+            <img class="border-purple"
+              src="https://media.istockphoto.com/id/1473711199/photo/face-portrait-student-and-man-in-university-ready-for-back-to-school-learning-goals-or.jpg?s=612x612&w=0&k=20&c=Xrwp5ePvm6RjixgAjJo-OAw9oXkLt_HcmT3bdlLZUdw="
+              alt="patrick harmon profile photo">
+            <figcaption class="profile-info">
+              <h2 class="profile-name">Ayush Kumar</h2>
+              <span class="profile-title">Attended Zenith</span>
+            </figcaption>
+          </figure>
+
+          <div class="testimonials">
+            <h2 class="heading">Fantastic Networking Opportunities</h2>
+            <blockquote class="body">“ Connected with Like-Minded Individuals "A great opportunity to connect with
+              aspiring entrepreneurs. I met so many people who share the same passion and vision for growth.empowered by
+              Practical Tips "I came in looking for personal growth strategies, and this event delivered beyond
+              expectations. The use of Notion tools was a game-changer. Connected with Like-Minded Individuals "A great
+              opportunity to connect with aspiring entrepreneurs.”</blockquote>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- ================================================testimoniials ENDS ================================= -->
 
 
   </div>
@@ -145,13 +680,13 @@
 
   <footer>
     <div class="footer-logo">
-      <img src="../footer photo/notion-logo.png" alt="Notion Community Logo"> <!-- Replace with your logo file -->
+      <img src="footer photo\notion-logo.png" alt="Notion Community Logo"> <!-- Replace with your logo file -->
       <div class="social-icons">
-        <a href="#" title="Twitter"><img src="../footer photo/twitter.png" alt="Twitter"></a>
-        <a href="#" title="Instagram"><img src="../footer photo/instagram.png" alt="Instagram"></a>
-        <a href="#" title="WhatsApp"><img src="../footer photo/whatsapp.png" alt="WhatsApp"></a>
+        <a href="#" title="Twitter"><img src="footer photo\twitter.png" alt="Twitter"></a>
+        <a href="#" title="Instagram"><img src="footer photo\instagram.png" alt="Instagram"></a>
+        <a href="#" title="WhatsApp"><img src="footer photo\whatsapp.png" alt="WhatsApp"></a>
         <i class="fa fa-linkedin-square" style="font-size:24px"></i>
-        <a href="#" title="YouTube"><img src="../footer photo/youtube.png" alt="YouTube"></a>
+        <a href="#" title="YouTube"><img src="footer photo\youtube.png" alt="YouTube"></a>
       </div>
 
     </div>
@@ -203,7 +738,66 @@
   </div>
   <!-- ==============footer ends====================== -->
 
+
+
+  </div>
+  <style>
+    /* Add responsive styles */
+    @media (max-width: 768px) {
+      .navbar-custom ul {
+        display: none;
+      }
+      .menu-icon-custom {
+        display: block;
+      }
+      .nav-links-custom {
+        display: flex;
+        flex-direction: column;
+      }
+      .nav-links-custom li {
+        margin: 10px 0;
+      }
+      .notion-about-section, .carousel, .slider, .team-section-custom, .testimonials-page {
+        flex-direction: column;
+        align-items: center;
+      }
+      .notion-image-content img, .carousel .item img, .slider .item img, .team-section-custom .card img, .testimonials-page .card-testimonials img {
+        width: 100%;
+        height: auto;
+      }
+      .notion-text-content, .introduce, .detail, .section-description, .testimonials {
+        text-align: center;
+      }
+      .footer-columns {
+        flex-direction: column;
+        align-items: center;
+      }
+      .footer-column {
+        margin-bottom: 20px;
+      }
+      .img-first-page {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      .top-text-first-page, .bottom-text-first-page {
+        text-align: center;
+        padding: 0 10px;
+        margin: 10px 0;
+        font-size: 1.5em;
+      }
+    }
+  </style>
+  <script src="Scripts\event-main.js"></script>
+  <script src="Scripts\index.js"></script>
+  <!-- <script src="team-section.js"></script> -->
+  <script>
+    document.getElementById("join-us-button").addEventListener("click", function () {
+      alert("We are not actively hiring now.");
+    });
+  </script>
+
 </body>
-<script src="questions-to-reacout.js"></script>
 
 </html>
