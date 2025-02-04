@@ -497,7 +497,7 @@ body {
 }
 
 .linkedin-icon {
-  /* margin-right: 8px;
+   margin-right: 8px;
   margin-left: 158px;
   color: #0077b5; 
   text-decoration: none;
@@ -507,15 +507,11 @@ body {
   left: 0; 
   top: 82%; 
   transform: translateY(-50%); 
-  */
-
 }
 
 .linkedin-icon:hover {
   color: #005582;
 }
-
-
 
 .centered-img {
   display: flex;
