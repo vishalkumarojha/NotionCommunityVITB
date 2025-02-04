@@ -69,10 +69,10 @@ const teamMembers = {
     { name: "Manya Raghuwanshi", role: "(Junior Associates)", img: "manya raghuwanshi.png", linkedin: "https://www.linkedin.com/in/manya-raghuwanshi-9928a9332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" }
   ],
   "operating-team": [
-    { name: " Arnav Nehra   ", role: " (Lead)", img: "arnav nehra.png", linkedin: "https://www.linkedin.com/in/eve-white" },
-    { name: " Shelly Sharma   ", role: "(Co-Lead) ", img: "shelly .png", linkedin: "https://www.linkedin.com/in/frank-green" },
-    { name: "Krishna Agrawal", role: " (Senior Associate) ", img: "IMG_20240420_192742 - Krishna Agrawal 23mei10032.jpg", linkedin: "https://www.linkedin.com/in/grace-lee" },
-    { name: " Prerna ", role: " (Senior Associate) ", img: "prerna.png", linkedin: "https://www.linkedin.com/in/grace-lee" },
+    { name: " Arnav Nehra   ", role: " (Lead)", img: "arnav nehra.png", linkedin: "https://www.linkedin.com/in/arnav-nehra-76bb2327a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
+    { name: " Shelly Sharma   ", role: "(Co-Lead) ", img: "shelly .png", linkedin: "https://www.linkedin.com/in/shelly-sharma2004" },
+    { name: "Krishna Agrawal", role: " (Senior Associate) ", img: "IMG_20240420_192742 - Krishna Agrawal 23mei10032.jpg", linkedin: "https://www.linkedin.com/in/krishna-agrawal-147210280" },
+    { name: " Prerna ", role: " (Senior Associate) ", img: "prerna.png", linkedin: "www.linkedin.com/in/prerna-singh-7b40792a2" },
     { name: "Shresth Jaiswal ", role: " (Senior Associate) ", img: "shresth jaiswal.png", linkedin: "https://www.linkedin.com/in/grace-lee" },
     { name: "Priyanshu", role: " (Senior Associate) ", img: "priyanshu.png", linkedin: "https://www.linkedin.com/in/grace-lee" },
     { name: "Yokesh T", role: " (Junior Associates). ", img: "Yokesh T.png",linkedin: "https://www.linkedin.com/in/yokesh-t-98937a303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
@@ -83,21 +83,21 @@ const teamMembers = {
     { name: "Abhishek Kumar", role: " (Lead)", img: "Abhishek Kumar _ Operations Team - Abhishek Kumar 23bhi10052.png", linkedin: "https://www.linkedin.com/in/eve-white" },
     { name: "Mohammed Shaariq", role: "(Co-Lead)", img: "MD SHAARIQ.png", linkedin: "https://www.linkedin.com/in/frank-green" },
     { name: "Krish Kumar", role: "(Junior Associates)", img: "krish kumar.png", linkedin: "https://www.linkedin.com/in/krish-verma-784944330/" },
-    { name: " Vedant Patidar", role: "(Junior Associates)", img: "vedant patidar.png", linkedin: "https://www.linkedin.com/in/vedant-patidar-2ba146242/" },
+    { name: " Vedant Patidar", role: "(Junior Associates)", img: "vedant patidar.png", linkedin: "https://www.linkedin.com/in/vedant-patidar-2ba146242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
     { name: "Manya Jajodia", role: "(Junior Associates)", img: "manya jajodia.png", linkedin: "https://www.linkedin.com/in/manya-jajodia-28747033a/" },
     { name: "Yug Pareek", role: "(Junior Associates)", img: "yug pareek.png", linkedin: "https://www.linkedin.com/in/yug-pareek-4657a2330/" },
-    { name: "Mokshad Bunde", role: "(Junior Associates)", img: "mokshad bunde.png", linkedin: "https://www.linkedin.com/in/mokshad-bunde-baa8b130a/" },
+    { name: "Mokshad Bunde", role: "(Junior Associates)", img: "mokshad bunde.png", linkedin: "https://www.linkedin.com/in/mokshad-bunde-baa8b130a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   ],
   "outreach-team": [
-    { name: "Lokesh Bagade", role: "(Lead)", img: "WhatsApp Image 2024-07-27 at 15.59.50_ac0ecdae - Lokesh Bhanudas Bagade 23BCE11746.jpg", linkedin: "https://www.linkedin.com/in/james-hall" },
+    { name: "Lokesh Bagade", role: "(Lead)", img: "WhatsApp Image 2024-07-27 at 15.59.50_ac0ecdae - Lokesh Bhanudas Bagade 23BCE11746.jpg", linkedin: "https://www.linkedin.com/in/lokeshbagade?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Manaswi Suraskar", role: "(Co-Lead)", img: "Manaswi Suraskar  - Manaswi Shantaram Suraskar 23bcy10258.jpg", linkedin: "https://www.linkedin.com/in/kathy-nelson" },
-    { name: " Tarpita Karnam", role: "(Senior Associate)  ", img: "IMG-20240727-WA0008 - Tarpita Karnam 23bhi10124.jpg", linkedin: "https://www.linkedin.com/in/kathy-nelson" },
-    { name: " Iram Khan ", role: "(Senior Associate)  ", img: "iram khan.png", linkedin: "https://www.linkedin.com/in/kathy-nelson" },
+    { name: " Tarpita Karnam", role: "(Senior Associate)  ", img: "IMG-20240727-WA0008 - Tarpita Karnam 23bhi10124.jpg", linkedin: "https://www.linkedin.com/in/tarpita-karnam-8208b5287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+    { name: " Iram Khan ", role: "(Senior Associate)  ", img: "iram khan.png", linkedin: "https://www.linkedin.com/in/iram-khan-3a4b80280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
     { name: "  Niharika Pandey", role: "(Senior Associate)  ", img: "niharika.png", linkedin: "https://www.linkedin.com/in/kathy-nelson" },
     { name: "Anamika", role: "(Senior Associate)  ", img: "anamika.png", linkedin: "https://www.linkedin.com/in/kathy-nelson" },
-    { name: "shanmugha priya", role: "(Junior Associates)  ", img: "shanmugha priya.png", linkedin: "https://www.linkedin.com/in/shanmugha-priya-l-6050b131a" },
+    { name: "shanmugha priya", role: "(Junior Associates)  ", img: "shanmugha priya.png", linkedin: "https://www.linkedin.com/in/shanmugha-priya-6050b131a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Dhananjay Yadav", role: "(Senior Associate)  ", img: "dhananjay yadav.png", linkedin: "https://www.linkedin.com/in/dhananjay-yadav-a5b06b2b9/" },
-    { name: " ANANYA GAUR", role: "(Senior Associate)  ", img: "ananya gaur.png", linkedin: "http://www.linkedin.com/in/ananya-gaur-268b0528b" },
+    { name: " ANANYA GAUR", role: "(Senior Associate)  ", img: "ananya gaur.png", linkedin: "www.linkedin.com/in/ananya-gaur-268b0528b"},
     { name: "Manasvi Maheshwari", role: "(Senior Associate)  ", img: "manasvi maheshwari.png", linkedin: "https://www.linkedin.com/in/manasvi-maheshwari-5085a8279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   ],
   "media-team": [
@@ -106,21 +106,22 @@ const teamMembers = {
     { name: "Suddershan S  ", role: "(Senior Associate)  ", img: "IMG_20230707_171911_649 - S Suddershan 23boe10062.jpg", linkedin: "https://www.linkedin.com/in/kathy-nelson" },
     { name: "Hardik Verma  ", role: "(Senior Associate)  ", img: "WhatsApp Image 2024-07-27 at 15.32.19_03c4b81e - Hardik Verma 23bai10915.jpg", linkedin: "https://www.linkedin.com/in/kathy-nelson" },
     { name: "Tuhin Rakshit  ", role: "(Senior Associate) ", img: "tuhin raksit.png", linkedin: "https://www.linkedin.com/in/kathy-nelson" },
-    { name: "Dheeraj Jangi  ", role: "(Junior Associates)  ", img: "dheeraj jangir.png", linkedin: "http://www.linkedin.com/in/dheeraj-jangir-9754b3325" },
-    { name: "Yash Janiyani ", role: "(Junior Associates)  ", img: "yash janiyani.png", linkedin: "https://in.linkedin.com/in/yash-janiyani-279326271" },
+    { name: "Dheeraj Jangi  ", role: "(Junior Associates)  ", img: "dheeraj jangir.png", linkedin: "www.linkedin.com/in/dheeraj-jangir-9754b3325" },
+    { name: "Yash Janiyani ", role: "(Junior Associates)  ", img: "yash janiyani.png", linkedin: "www.linkedin.com/in/yash-janiyani-279326271" },
 
   ],
   "content-team": [
-    { name: "Deepti Srivastava", role: "(Lead)", img: "deepti.png", linkedin: "https://www.linkedin.com/in/nina-martin" },
+    { name: "Deepti Srivastava", role: "(Lead)", img: "deepti.png", linkedin: "https://www.linkedin.com/in/deepti-srivastava-325329314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Mudra khuje ", role: "(Senior Associate)", img: "mudra khuje.png", linkedin: "https://www.linkedin.com/in/mudra-khuje-b30b08204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Yoshita Purohit ", role: "(Junior Associates)", img: "yoshita purohit.png", linkedin: "https://www.linkedin.com/in/yoshita-purohit-047449327" },
     { name: "Anuja Nag", role: "(Senior Associate)", img: "anuja nag.png", linkedin: "https://www.linkedin.com/in/anuja-nag-618380312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-    { name: "Abha Singh", role: "(Junior Associates)", img: "abha singh.png", linkedin: "https://www.linkedin.com/in/abha-singh-60739031a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+    { name: "Abha Singh", role: "(Junior Associates)", img: "abha singh.png", linkedin: "www.linkedin.com/in/abha-singh-60739031a" },
 
   ],
   "corporate-team": [
-    { name: "Adarsh Singh", role: "(Lead)", img: "Adarsh - Adarsh Singh 23BAI11390.png", linkedin: "https://www.linkedin.com/in/paul-walker" },
-    { name: "Dev Vrat", role: "(Co-Lead)", img: "dev vrat.png", linkedin: "https://www.linkedin.com/in/quinn-adams" },
+    { name: "Adarsh Singh", role: "(Lead)", img: "Adarsh - Adarsh Singh 23BAI11390.png", linkedin: "www.linkedin.com/in/ adarsh-singh-go" },
+    { name: "Dev Vrat", role: "(Co-Lead)", img: "dev vrat.png", linkedin: "https://www.linkedin.com/in/dev-vrat-9a0781276/" },
+    { name: "Dhananjay Yadav", role: "(Senior Associate)", img: "Dhananjay Yadav.png", linkedin: "https://www.linkedin.com/in/dhananjay-yadav-a5b06b2b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Atharv Patil", role: "(Junior Associates)", img: "atharv .png", linkedin: "https://www.linkedin.com/in/atharv-patil-782ba5324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   ],
   "Anchoring-team": [
@@ -129,7 +130,7 @@ const teamMembers = {
     { name: "RITIKA SINGH", role: "(Junior Associates)", img: "ritika singh .png", linkedin: "https://www.linkedin.com/in/ritika-singh-838a33276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Snigdha Josh", role: "(Junior Associates)", img: "snighdhaa joshi.png", linkedin: "https://www.linkedin.com/in/snigdha-joshi-4a4b76311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Muskan Pathak", role: "(Junior Associates)", img: "muskan pathak.png", linkedin: "https://www.linkedin.com/in/quinn-adams" },
-    { name: "Aman Ankur", role: "(Junior Associates)", img: "aman ankur.png", linkedin: "http://www.linkedin.com/in/aa3111s/" },
+    { name: "Aman Ankur", role: "(Junior Associates)", img: "aman ankur.png", linkedin: "www.linkedin.com/in/aa3111s" },
 
   ]
 };
