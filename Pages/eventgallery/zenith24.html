@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Gallery</title>
+    <br>
+    <br>
+    <h1>"Zenith'24"</h1>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Caveat', cursive;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            padding: 20px;
+            justify-items: center;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .gallery-item {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 3 / 4;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            background-color: white;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+            border-radius: 12px;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .image-overlay {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            font-size: 18px;
+            padding: 8px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+
+        .gallery-item:hover .image-overlay {
+            opacity: 1;
+        }
+
+        .back-button {
+            background: none;
+            border: none;
+            font-size: 22px;
+            font-weight: 600;
+            color: #555;
+            text-decoration: underline;
+            cursor: pointer;
+            margin-top: 30px;
+            transition: color 0.3s ease;
+        }
+
+        .back-button:hover {
+            color: black;
+        }
+
+        @media (max-width: 1024px) {
+            .gallery-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .gallery-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Event Gallery</h1>
+
+<div class="gallery-container" id="eventGallery"></div>
+
+<button class="back-button" onclick="window.location.href='../../index.html'">← Back to Home</button>
+
+<script>
+    const eventPhotos = [
+        { src: '../../images/event-photos/build-your-brand/photograph1.JPG' },
+        { src: '../../images/event-photos/build-your-brand/photograph2.JPG' },
+        { src: '../../images/event-photos/build-your-brand/photograph3.JPG' },
+        { src: '../../images/event-photos/build-your-brand/photograph4.JPG' },
+        { src: '../../images/event-photos/build-your-brand/photograph5.JPG' },
+        { src: '../../images/event-photos/build-your-brand/photograph6.JPG' },
+        { src: '../../images/event-photos/build-your-brand/photograph7.JPG' },
+        { src: '../../images/event-photos/build-your-brand/photograph8.JPG' },
+        { src: '../../images/event-photos/build-your-brand/photograph9.JPG' }
+    ];
+
+    function createGallery() {
+        const gallery = document.getElementById('eventGallery');
+
+        eventPhotos.forEach((photo, index) => {
+            const photoItem = document.createElement('div');
+            photoItem.className = 'gallery-item';
+
+            const img = document.createElement('img');
+            img.src = photo.src;
+            img.alt = `Event Photo ${index + 1}`;
+
+            const overlay = document.createElement('div');
+            overlay.className = 'image-overlay';
+            overlay.textContent = `Event Photo ${index + 1}`;
+
+            photoItem.appendChild(img);
+            photoItem.appendChild(overlay);
+            gallery.appendChild(photoItem);
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', createGallery);
+</script>
+
+</body>
+</html>
