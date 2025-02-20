@@ -535,21 +535,39 @@ header nav a {
         width: max-content;
         float: right;
     }
+}
+        /** MOBILE VIEW **/
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+            .navbar a {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+        }
+        
+        .eventPhotos {
+            background-color: #ffffff; 
+            color: #333; 
+            border: 2px solid #333;
+            border-radius: 8px; 
+            padding: 12px 24px; 
+            font-family: 'Caveat', cursive; 
+            font-size: 1.2em; 
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; 
+            text-align: center; 
+            display: inline-block; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        }
+        
+        .eventPhotos:hover {
+            background-color: #f0f0f0;
+            color: #000; 
+            transform: translateY(-3px); 
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+        }
     
-    /** MOBILE VIEW **/
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-    .navbar a {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-  }
-}
-.eventPhotos{
- fill: #eee;   
- background-color: #e4a9a9;
-}
