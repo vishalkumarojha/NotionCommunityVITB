@@ -382,149 +382,124 @@ body {
 }
 
 
-/* ===============================footer=========================== */
-.footer {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  padding: 20px 30px;
-  margin-top: 20vh;
+/* =================================footer======================== */
+
+body {
+  font-family: Caveat, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
 }
 
-.footer-container {
+footer {
+  background-color: #fff;
+  padding: 40px 20px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
   justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px solid #ddd;
 }
 
-.footer-section {
+.footer-logo {
   flex: 1;
-  min-width: 200px;
 }
 
-.brand h1,
-.brand p {
-  color: rgb(255, 255, 255);
+.footer-logo img {
+  max-width: 150px;
+}
+
+.footer-columns {
+  flex: 3;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #000;
+}
+
+.subscribe {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.subscribe input[type="email"] {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subscribe button:hover {
+  background-color: #000;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
 }
 
 .social-icons {
   display: flex;
   gap: 10px;
-  margin-top: 10px;
-  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
-.icon {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  padding: 5px 10px;
-  border-radius: 5px;
-  text-align: center;
-  cursor: pointer;
-  font-size: 14px;
-}
-
-.pages ul,
-.navigate ul {
-  list-style: none;
-  padding: 0;
-}
-
-.pages li,
-.navigate li {
-  margin: 5px 0;
-}
-
-.subscribe input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-.subscribe button {
-  width: 100%;
-  padding: 10px;
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.footer-bottom {
-  text-align: center;
-  margin-top: 20px;
-  border-top: 1px solid black;
-  padding-top: 10px;
-}
-
-.footer-bottom a {
-  color: black;
+.social-icons a {
   text-decoration: none;
-  margin: 0 5px;
+  font-size: 20px;
+  color: #555;
+  transition: color 0.3s;
 }
 
-.footer-bottom a:hover {
-  text-decoration: underline;
+.social-icons a:hover {
+  color: #000;
 }
 
-/* Add underline and pointer on hover */
-.pages ul li,
-.navigate ul li {
-  margin: 5px 0;
-  cursor: pointer;
-  /* Show pointer cursor */
-  position: relative;
-  /* For the underline effect */
+.social-icons a img {
+  width: 24px;
+  height: 24px;
 }
 
-.pages ul li::after,
-.navigate ul li::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  /* Thickness of the underline */
-  background-color: black;
-  /* Color of the underline */
-  transition: width 0.3s ease-in-out;
-  /* Smooth transition */
-}
 
-.pages ul li:hover::after,
-.navigate ul li:hover::after {
-  width: 100%;
-  /* Show underline on hover */
-}
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .footer-section {
-    text-align: center;
-  }
-
-  .subscribe input,
-  .subscribe button {
-    width: calc(100% - 20px);
-  }
-}
-
-@media (max-width: 480px) {
-  .social-icons {
-    justify-content: center;
-  }
-
-  .icon {
-    padding: 5px;
-    font-size: 12px;
-  }
-}
+/* =================================Footer======================== */
