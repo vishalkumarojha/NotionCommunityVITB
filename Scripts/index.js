@@ -90,7 +90,7 @@ const teamMembers = {
   ],
   "outreach-team": [
     { name: "Lokesh Bagade", role: "(Lead)", img: "WhatsApp Image 2024-07-27 at 15.59.50_ac0ecdae - Lokesh Bhanudas Bagade 23BCE11746.jpg", linkedin: "https://www.linkedin.com/in/lokeshbagade?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-    { name: "Manaswi Suraskar", role: "(Co-Lead)", img: "Manaswi Suraskar  - Manaswi Shantaram Suraskar 23bcy10258.jpg", linkedin: "https://www.linkedin.com/in/kathy-nelson" },
+    { name: "Manaswi Suraskar", role: "(Co-Lead)", img: "Manaswi Suraskar  - Manaswi Shantaram Suraskar 23bcy10258.jpg", linkedin: "https://www.linkedin.com/in/manaswi-suraskar-bb131b28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: " Tarpita Karnam", role: "(Senior Associate)  ", img: "IMG-20240727-WA0008 - Tarpita Karnam 23bhi10124.jpg", linkedin: "https://www.linkedin.com/in/tarpita-karnam-8208b5287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: " Iram Khan ", role: "(Senior Associate)  ", img: "iram khan.png", linkedin: "https://www.linkedin.com/in/iram-khan-3a4b80280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
     { name: "Niharika Pandey", role: "(Senior Associate)  ", img: "niharika.png", linkedin: "https://www.linkedin.com/in/niharika-pandey-4335132b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
