@@ -152,8 +152,8 @@ function generateTeamCards(teamId, teamContainer, members) {
       <img class="member-img" src="${member.img}" alt="${member.name}">
       <div class="name">${member.name}</div>
       <div class="role">${member.role}</div>
-      <a href="${member.linkedin}" target="_blank" class="linkedin-icon">
-        <img src="assets/linkedin.svg" alt="LinkedIn" class="linkedin-logo">
+      <a href="${member.linkedin}" target="_blank" class="linkedin-icon"><br>
+        <img src="../assets/linkedin.svg" alt="LinkedIn" class="linkedin-logo">
       </a>
     `;
 
