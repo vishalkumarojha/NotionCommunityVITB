@@ -64,7 +64,7 @@ window.addEventListener('resize', () => {
 const teamMembers = {
   "tech-team": [
     { name: "Anushka Dubey", role: " (Lead)   ", img: "../images/team-members/Anushka Dubey 23bce11492.jpg", linkedin: "https://www.linkedin.com/in/anushka-dubey-7b4501215/" },
-    { name: "Shauryaraje Yadav ", role: "(Senior Associate)", img: "../images/team-members/shauryaraje yadav.png", linkedin: "https://www.linkedin.com/in/shauryaraje/" },
+    { name: "Shauryaraje Yadav ", role: "(Co-Lead)", img: "../images/team-members/shauryaraje yadav.png", linkedin: "https://www.linkedin.com/in/shauryaraje/" },
     { name: "Sparsh Khatwani", role: "(Senior Associate)", img: "../images/team-members/SparshKhatwani_techteam - Sparsh Khatwani 23bce10090.jpg", linkedin: "https://www.linkedin.com/in/sparshkhatwani" },
     { name: "Manya Raghuwanshi", role: "(Junior Associates)", img: "../images/team-members/manya raghuwanshi.png", linkedin: "https://www.linkedin.com/in/manya-raghuwanshi-9928a9332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
     { name: "Nikhil Hegde", role: "(Junior Associates)", img: "../images/team-members/Nikhil_Hegde_tech_team - NIKHIL ANANT HEGDE 24BCE10223.jpg", linkedin: "http://www.linkedin.com/in/nikhil-hegde-897b59328" },
@@ -76,7 +76,7 @@ const teamMembers = {
     { name: "Krishna Agrawal", role: " (Senior Associate) ", img: "../images/team-members/Krishna Agrawal 23mei10032.jpg", linkedin: "https://www.linkedin.com/in/krishna-agrawal-147210280" },
     { name: " Prerna ", role: " (Senior Associate) ", img: "../images/team-members/prerna.png", linkedin: "www.linkedin.com/in/prerna-singh-7b40792a2" },
     { name: "Priyanshu", role: " (Senior Associate) ", img: "../images/team-members/priyanshu.png", linkedin: "https://www.linkedin.com/in/priyanshu-82514228a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-    { name: "Yokesh T", role: " (Junior Associates). ", img: "../images/team-members/Yokesh T.png",linkedin: "https://www.linkedin.com/in/yokesh-t-98937a303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+    { name: "Yokesh T", role: " (Junior Associates). ", img: "../images/team-members/Yokesh T.png", linkedin: "https://www.linkedin.com/in/yokesh-t-98937a303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Mehul khare", role: " (Junior Associates). ", img: "../images/team-members/MEHUL KHARE.png", linkedin: "https://www.linkedin.com/in/mehul-khare-35a566311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   ],
 
@@ -98,7 +98,7 @@ const teamMembers = {
     { name: "Anamika", role: "(Senior Associate)  ", img: "../images/team-members/anamika.png", linkedin: "https://www.linkedin.com/in/shanmugha-priya-6050b131a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "shanmugha priya", role: "(Junior Associates)  ", img: "../images/team-members/shanmugha priya.png", linkedin: "https://www.linkedin.com/in/shanmugha-priya-6050b131a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Dhananjay Yadav", role: "(Senior Associate)  ", img: "../images/team-members/dhananjay yadav.png", linkedin: "https://www.linkedin.com/in/dhananjay-yadav-a5b06b2b9/" },
-    { name: " ANANYA GAUR", role: "(Senior Associate)  ", img: "../images/team-members/ananya gaur.png", linkedin: "https://www.linkedin.com/in/ananya-gaur-268b0528b"},
+    { name: " ANANYA GAUR", role: "(Senior Associate)  ", img: "../images/team-members/ananya gaur.png", linkedin: "https://www.linkedin.com/in/ananya-gaur-268b0528b" },
     { name: "Manasvi Maheshwari", role: "(Senior Associate)  ", img: "../images/team-members/manasvi maheshwari.png", linkedin: "https://www.linkedin.com/in/manasvi-maheshwari-5085a8279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   ],
   "media-team": [
@@ -122,7 +122,7 @@ const teamMembers = {
     { name: "Adarsh Singh", role: "(Lead)", img: "../images/team-members/Adarsh - Adarsh Singh 23BAI11390.png", linkedin: "https://www.linkedin.com/in/ adarsh-singh-go" },
     { name: "Dev Vrat", role: "(Co-Lead)", img: "../images/team-members/dev vrat.png", linkedin: "https://www.linkedin.com/in/dev-vrat-9a0781276/" },
     { name: "Dhananjay Yadav", role: "(Senior Associate)", img: "../images/team-members/Dhananjay Yadav.png", linkedin: "https://www.linkedin.com/in/dhananjay-yadav-a5b06b2b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-    { name: "Atharv Patil", role: "(Junior Associates)", img: "../images/team-members/atharv .png", linkedin: "https://www.linkedin.com/in/atharv-patil-782ba5324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+  
   ],
   "Anchoring-team": [
     { name: "Vartika Tiwari", role: "(Lead)", img: "../images/team-members/vartika.jpg", linkedin: "https://www.linkedin.com/in/vartika-tiwari-1a97b8289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
@@ -136,30 +136,30 @@ const teamMembers = {
 };
 
 // Function to generate team cards
-function generateTeamCards(teamId, teamContainer, members) {
-  if (!teamContainer) {
-    console.error(`Container for team ${teamId} not found.`);
-    return;
-  }
+// function generateTeamCards(teamId, teamContainer, members) {
+//   if (!teamContainer) {
+//     console.error(`Container for team ${teamId} not found.`);
+//     return;
+//   }
 
-  teamContainer.innerHTML = '';  // Clear previous team cards
+//   teamContainer.innerHTML = '';  // Clear previous team cards
 
-  members.forEach(member => {
-    const card = document.createElement('div');
-    card.classList.add('team-card');
+//   members.forEach(member => {
+//     const card = document.createElement('div');
+//     card.classList.add('team-card');
 
-    card.innerHTML = `
-      <img class="member-img" src="${member.img}" alt="${member.name}">
-      <div class="name">${member.name}</div>
-      <div class="role">${member.role}</div>
-      <a href="${member.linkedin}" target="_blank" class="linkedin-icon">
-        <img src="assets/linkedin.svg" alt="LinkedIn" class="linkedin-logo">
-      </a>
-    `;
+//     card.innerHTML = `
+//       <img class="member-img" src="${member.img}" alt="${member.name}">
+//       <div class="name">${member.name}</div>
+//       <div class="role">${member.role}</div>
+//      <a href="${member.linkedin}" target="_blank" class="linkedin-icon">
+//         <img src="assets/linkedin.svg" alt="LinkedIn" class="linkedin-logo">
+//       </a>
+//     `;
 
-    teamContainer.appendChild(card);
-  });
-}
+//     teamContainer.appendChild(card);
+//   });
+// }
 
 
 // Function to generate team cards
@@ -179,14 +179,15 @@ function generateTeamCards(teamId, teamContainer, members) {
       <img class="member-img" src="${member.img}" alt="${member.name}">
       <div class="name">${member.name}</div>
       <div class="role">${member.role}</div>
-      <a href="${member.linkedin}" target="_blank" class="linkedin-icon"><br>
-        <img src="../assets/linkedin.svg" alt="LinkedIn" class="linkedin-logo">
-      </a>
+  
+ 
+
     `;
 
     teamContainer.appendChild(card);
   });
 }
+
 
 // Generate cards for each team
 Object.keys(teamMembers).forEach(team => {
