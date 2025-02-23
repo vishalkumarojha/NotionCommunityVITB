@@ -1,11 +1,8 @@
 /* Navbar styles */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap');
-
 body {
-  font-family: 'Source Serif Pro', sans-serif;
+  /* font-family: 'Caveat', sans-serif; */
 }
-
 .navbar-custom {
   display: flex;
   justify-content: space-between;
@@ -33,6 +30,8 @@ body {
   /* Shift back by half the width */
   z-index: 2;
   width: 94%;
+
+
 }
 
 .logo-custom {
@@ -64,7 +63,6 @@ body {
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s;
-  font-family: 'Caveat', cursive; 
 }
 
 .nav-links-custom a:hover {
@@ -72,6 +70,8 @@ body {
   text-decoration: underline;
 }
 
+
+/* Responsive for Android (Small screens) */
 /* Responsive for Android (Small screens) */
 @media (max-width: 768px) {
   .menu-icon-custom {
@@ -111,136 +111,209 @@ body {
   }
 }
 
-/* =========================about us ======================= */
+
+
+
+
+
+
+
+/* =========================aboout us ======================= */
+
 
 .about-us {
   display: flex;
   flex-direction: column;
   margin-top: 20vh;
-  font-family: 'Source Serif Pro';
+  font-family: Caveat;
   gap: 20vh;
 }
 
 .about-us-data {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-items: center;
+  justify-content: center;
+
   width: 90vw;
   margin: auto;
   gap: 10vw;
+
 }
 
 .about-us-data-img {
-  order: 1;
-  width: 40%;
+
+  /* border: 2px solid black; */
+  /* width: 80vw; */
+  /* margin: auto; */
 }
 
 .about-us-data-text {
-  font-family: 'Source Serif Pro';
-  font-size: 20px;
+  font-family: Caveat;
+  font-size: 28px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 37.33px;
   text-align: left;
-  width: 50%;
-  order: 2;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 40vw;
+
+
 }
+
+
+
+
 
 @media (max-width: 768px) {
   .about-us-data {
+    display: flex;
     flex-direction: column;
+    justify-items: center;
     justify-content: center;
-    align-items: center;
     width: 100vw;
     text-align: center;
     margin: auto;
     gap: 10vw;
-  }
 
-  .about-us-data-img,
-  .about-us-data-text {
-    width: 90%;
   }
 
   .about-us-data-text {
-    font-size: 16px;
+    font-family: Caveat;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 37.33px;
     text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: auto;
+    width: 90vw;
+
   }
 }
+
 
 .heading {
   margin-top: 20vh;
   text-align: center;
   font-size: 30px;
 }
-
 /** MOBILE VIEW **/
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-  }
-  .navbar a {
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
 }
-
-/* =================================footer======================== */
-/* Footer Styling */
 footer {
-  background-color: #f9f9f9f9;
-  color: #333;
-  padding: 30px 50px;
-  font-family: 'Source Serif Pro', serif;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-container {
+  background-color: #fff;
+  padding: 40px 20px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; 
-  flex-wrap: wrap;
-  gap: 40px;
-  border-bottom: 1px solid #bbb;
-  padding-bottom: 20px;
+  align-items: flex-start;
+  border-top: 1px solid #ddd;
 }
 
-.about-notion, .updates, .contact-us {
+.footer-logo {
   flex: 1;
-  min-width: 250px;
+}
+
+.footer-logo img {
+  max-width: 150px;
+}
+
+.footer-columns {
+  flex: 3;
   display: flex;
-  flex-direction: column; 
-  background-color: #f9f9f9f9;
+  justify-content: space-around;
 }
-h1 {
-  font-size: 60px;
-  font-family: 'Caveat';
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
 }
-h3 {
-  font-family: 'Caveat', cursive;
-  font-size: 24px;
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
   margin-bottom: 10px;
 }
 
-.vertical-line {
-  width: 2px;
-  background-color: #bbb;
-  height: 100px;
-  align-self: center;
+.footer-column ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  transition: color 0.3s;
 }
 
-.social-icons img {
-  width: 24px;
-  margin-right: 10px;
+.footer-column ul li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.subscribe {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.subscribe input[type="email"] {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subscribe button:hover {
+  background-color: #000;
 }
 
 .footer-bottom {
+  margin-top: 20px;
   text-align: center;
   font-size: 12px;
   color: #999;
-  width: 100%;
-  margin-top: 10px; 
 }
 
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #000;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+}
