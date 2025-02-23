@@ -24,6 +24,9 @@ a:not([class]) {
   font-size: 65px;
   text-align: center;
 }
+.testimonials{
+  transform: translateY(-17vh);
+}
 
 .testimonials-page {
   margin-top: 5vh;
@@ -207,7 +210,7 @@ body {
 }
 
 .border-gray {
-  border: 3px solid rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);a
 }
 
 .testimonials .heading {
@@ -551,3 +554,11 @@ body {
     opacity: 1;
   }
 }
+
+
+.card-testimonials{
+  display: flex;
+  flex-direction: column;
+}
+
+

@@ -82,13 +82,17 @@ p {
 }
 
 .nav-links-custom li {
+  font-size: 30px;
   margin: 0 15px;
+}
+.nav ul li a{
+  font-size: 30px;
 }
 
 .nav-links-custom a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  font-size: 18px;
+  font-size: 30px;
   transition: color 0.3s;
 }
 
