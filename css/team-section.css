@@ -50,8 +50,6 @@ h1, h2, h3, h4, h5, h6 {
   /* Shift back by half the width */
   z-index: 2;
   width: 94%;
-
-
 }
 
 .logo-custom {
@@ -83,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s;
+  font-family: 'Caveat', cursive; 
 }
 
 .nav-links-custom a:hover {
@@ -90,8 +89,6 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: underline;
 }
 
-
-/* Responsive for Android (Small screens) */
 /* Responsive for Android (Small screens) */
 @media (max-width: 768px) {
   .menu-icon-custom {
@@ -171,9 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
 /* ======================================================================================= */
-
 
 /* Styling for navbar and highlighter */
 body {
@@ -291,7 +286,6 @@ body {
 }
 
 /* Team Section Styling */
-/* Team Section Styling */
 .team-section {
   padding: 20px;
   background-color: #f9f9f9;
@@ -365,7 +359,6 @@ body {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-
 .linkedin-logo {
   width: 40px;
   /* Adjust size */
@@ -382,7 +375,6 @@ body {
   /* Slightly enlarges on hover */
 }
 
-
 /* Media query for smaller screens (mobile) */
 @media (max-width: 768px) {
   .team-card {
@@ -392,8 +384,6 @@ body {
     max-width: calc(55% - 20px);
     /* 2 cards per row */
     padding: auto;
-
-
   }
 
   .team-container {
@@ -402,10 +392,7 @@ body {
     justify-content: center;
     gap: 20px;
   }
-
 }
-
-
 
 /* ===============================faculy names================ */
 
@@ -449,16 +436,12 @@ body {
   padding: 0.5em;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
-
-
-
 }
 
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
-
 
 .profile-picture {
   width: 100%;
@@ -471,7 +454,6 @@ body {
 
 /* Image Placeholder */
 .image-placeholder {
-
   width: 100%;
   height: 200px;
   background-color: #bcbdbd;
@@ -489,7 +471,6 @@ body {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-
 /* Member Name */
 .name {
   font-size: 0.9em;
@@ -497,7 +478,7 @@ body {
 }
 
 .linkedin-icon {
-   margin-right: 8px;
+  margin-right: 8px;
   margin-left: 158px;
   color: #0077b5; 
   text-decoration: none;
@@ -520,189 +501,65 @@ body {
   align-items: center;
 }
 
-
 /* =================================footer======================== */
-
-body {
-  font-family: Caveat, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-}
-
+/* Footer Styling */
 footer {
-  background-color: #fff;
-  padding: 40px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  border-top: 1px solid #ddd;
-}
-
-.footer-logo {
-  flex: 1;
-}
-
-.footer-logo img {
-  max-width: 150px;
-}
-
-.footer-columns {
-  flex: 3;
-  display: flex;
-  justify-content: space-around;
-}
-
-.footer-column h3 {
-  font-size: 16px;
-  margin-bottom: 15px;
+  background-color: #f9f9f9;
   color: #333;
-}
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-column ul li {
-  margin-bottom: 10px;
-}
-
-.footer-column ul li a {
-  text-decoration: none;
-  color: #555;
-  font-size: 14px;
-  transition: color 0.3s;
-}
-
-.footer-column ul li a:hover {
-  color: #000;
-}
-
-.subscribe {
-  flex: 1;
+  padding: 30px 50px;
+  font-family: 'Source Serif Pro', serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
 }
 
-.subscribe input[type="email"] {
-  padding: 10px;
-  width: 200px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  flex-wrap: wrap;
+  gap: 40px;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 20px;
+}
+
+.about-notion, .updates, .contact-us {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column; 
+}
+
+h3 {
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
   margin-bottom: 10px;
 }
 
-.subscribe button {
-  padding: 10px 20px;
-  background-color: #555;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.subscribe button:hover {
-  background-color: #000;
-}
-
-.footer-bottom {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 12px;
-  color: #ffffff;
-  padding-bottom: 5px;
+.vertical-line {
+  width: 2px;
+  background-color: #bbb;
+  height: 100px;
+  align-self: center;
 }
 
 .social-icons {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+  display: flex; /* Add this line to make the icons horizontal */
+  align-items: center; /* Center the icons vertically */
 }
 
-.social-icons a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #555;
-  transition: color 0.3s;
-}
-
-.social-icons a:hover {
-  color: #000;
-}
-
-.social-icons a img {
+.social-icons img {
   width: 24px;
-  height: 24px;
+  margin-right: 10px;
 }
 
-
-/* Default mobile-first approach */
-@media (max-width: 768px) {
-  footer {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-logo {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .footer-columns {
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .footer-column {
-    width: 100%;
-  }
-
-  .subscribe {
-    margin-top: 20px;
-  }
-
-  .subscribe input[type="email"] {
-    width: 100%;
-  }
-
-  .social-icons {
-    justify-content: center;
-  }
+.footer-bottom {
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  width: 100%;
+  margin-top: 10px; 
 }
-
-@media (max-width: 480px) {
-  .footer-logo img {
-    max-width: 120px;
-  }
-
-  .footer-column h3 {
-    font-size: 14px;
-  }
-
-  .footer-column ul li a {
-    font-size: 12px;
-  }
-
-  .subscribe input[type="email"] {
-    width: 90%;
-  }
-
-  .subscribe button {
-    width: 100%;
-  }
-}
-
-
 /* =================================Footer======================== */
-
-
 
 /* ===============================Image Part=========================== */
 
@@ -714,9 +571,6 @@ footer {
   margin-top: 130px;
   padding-bottom: 0%;
 }
-
-
-
 
 img {
   width: 100%;
@@ -744,8 +598,5 @@ img {
   cursor: pointer;
   transition: transform 0.3s ease;
 }
-
-
-
 
 /* ===============================Image Part=========================== */
