@@ -97,7 +97,6 @@ const teamMembers = {
     { name: "Niharika Pandey", role: "(Senior Associate)  ", img: "../images/team-members/niharika.png", linkedin: "https://www.linkedin.com/in/niharika-pandey-4335132b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
     { name: "Anamika", role: "(Senior Associate)  ", img: "../images/team-members/anamika.png", linkedin: "https://www.linkedin.com/in/shanmugha-priya-6050b131a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "shanmugha priya", role: "(Junior Associates)  ", img: "../images/team-members/shanmugha priya.png", linkedin: "https://www.linkedin.com/in/shanmugha-priya-6050b131a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-    { name: "Dhananjay Yadav", role: "(Senior Associate)  ", img: "../images/team-members/dhananjay yadav.png", linkedin: "https://www.linkedin.com/in/dhananjay-yadav-a5b06b2b9/" },
     { name: " ANANYA GAUR", role: "(Senior Associate)  ", img: "../images/team-members/ananya gaur.png", linkedin: "https://www.linkedin.com/in/ananya-gaur-268b0528b" },
     { name: "Manasvi Maheshwari", role: "(Senior Associate)  ", img: "../images/team-members/manasvi maheshwari.png", linkedin: "https://www.linkedin.com/in/manasvi-maheshwari-5085a8279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   ],
