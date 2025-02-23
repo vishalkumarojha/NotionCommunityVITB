@@ -175,7 +175,7 @@ body {
 }
 
 .sidebar h3 {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   margin-bottom: 1rem;
 }
 
@@ -218,7 +218,7 @@ body {
 .faq-question {
   display: flex;
   justify-content: space-between;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   cursor: pointer;
   color: black;
 }
@@ -230,7 +230,7 @@ body {
 
 .faq-answer {
   margin-top: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: grey;
   display: none;
 }
