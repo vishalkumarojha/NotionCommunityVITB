@@ -191,6 +191,8 @@ p {
   padding: 0.8em 2em;
   background: var(--bg);
   transition: 0.2s;
+  font-family: Caveat, sans-serif;
+  font-weight: bolder;
 }
 
 .button:hover {
@@ -261,6 +263,87 @@ p {
   border-radius: 21px;
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1001;
+  width: 90%;
+  max-width: 400px;
+  opacity: 0;
+  animation: modal-animation 0.3s ease-in-out;
+}
+@keyframes modal-animation {
+  from {
+      opacity: 0;
+      transform: translate(-50%, -48%);
+  }
+  to {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+  }
+}
+/* Modal Open State */
+.modal.show {
+  display: block;
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+  color: black;
+}
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.highlight {
+  font-weight: bolder;
+  color: red;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background 0.3s ease-in-out;
+}
+.social-links a img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease;
+  
+}
+.social-links a img:hover {
+  transform: scale(1.1);
+}
+
 .notion-image-content {
   width: 50%;
   text-align: right;
@@ -304,6 +387,10 @@ p {
   .notion-view-more-btn {
     margin-top: 10px;
   }
+  .modal {
+    width: 90%;
+    max-width: 350px;
+}
 }
 
 
