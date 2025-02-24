@@ -74,7 +74,23 @@
           productivity, creativity, and collaboration. Join us to learn, share, and grow together!
         </p>
         <a href="Pages/about-s.html">      <button class="button">View More</button>                         </a>
-        <a href="#">                       <button class="button">Join Us  </button>                           </a>
+        <a href="#"><button class="button" id="join-us-button">Join us</button></a>
+        <div class="modal" id="modal">
+          <span class="close">×</span>
+          <img class="modal-image" src="assets/Painting.svg" >
+          <p>We're <span class="highlight">not</span> hiring at the moment, but stay tuned for future opportunities!</p>
+          <div class="social-links">
+              <a href="https://chat.whatsapp.com/L6ucA08piwVLw1N0hmyCun" target="_blank">
+                  <img src="footer photo/whatsapp.png" alt="WhatsApp" width="24" height="24"> 
+              </a>
+              <a href="https://www.linkedin.com/company/notion_vit/posts/?feedView=all" target="_blank">
+                  <img src="footer photo/linkedin.png" alt="LinkedIn" width="24" height="24">
+              </a>
+              <a href="https://www.instagram.com/notion.vit/" target="_blank">
+                  <img src="footer photo/instagram.png" alt="Instagram" width="24" height="24"> 
+              </a>
+          </div>
+      </div>                       
       </div>
       <div class="notion-image-content">
         <img src="assets/about us img for main page.png" alt="Notion Community">
@@ -784,9 +800,28 @@
   <script src="Scripts\event-main.js"></script>
   <script src="Scripts\team-section.js"></script>
   <script>
-    document.getElementById("join-us-button").addEventListener("click", function () {
-      alert("We are not actively hiring now.");
-    });
+    document.addEventListener("DOMContentLoaded", function () {
+  const modal = document.getElementById("modal");
+  const overlay = document.createElement("div");
+  overlay.className = "modal-overlay";
+  document.body.appendChild(overlay);
+
+  document.getElementById("join-us-button").addEventListener("click", function () {
+      modal.classList.add("show");
+      overlay.style.display = "block";
+  });
+
+  document.querySelector(".close").addEventListener("click", function () {
+      modal.classList.remove("show");
+      overlay.style.display = "none";
+  });
+
+  overlay.addEventListener("click", function () {
+      modal.classList.remove("show");
+      overlay.style.display = "none";
+  });
+});
+
   </script>
 
 </body>
